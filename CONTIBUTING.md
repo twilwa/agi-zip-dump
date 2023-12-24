@@ -22,7 +22,8 @@ if in the AGI folder, a list of the GPT's current Skills in that Readme (you can
 
 if in the Skills folder, a natural language description of the Skill (ideally with example use-cases)
 
-if in the Outputs folder, a README for the collection of files in the .zip file (and their intended use-cases). for Outputs, ask AGI.zip to include the appropriate .repl file in the zip of filesit gives you, such that each .zip can be deployed to replit easily.
+if in the Outputs folder, a README for the collection of files in the .zip file (and their intended use-cases). for Outputs, ask AGI.zip to include the appropriate .repl file in the zip of files it gives you, such that each .zip can be deployed to replit easily.
+
 ---
 
 GPT code outputs can be unreliable -- if you don't understand the code you're looking at upon unzipping the file, don't run it. Best case, it errors out, worst case, it's malware. I'll try to keep an eye out for this. If you're not sure, upload the .zip to agi.zip and ask it to check the contents before running it on repl.it.
